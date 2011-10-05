@@ -1,0 +1,15 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+
+[jnt:paypal] > jnt:content, mix:title, jmix:socialComponent, jmix:bindedComponent
+  - typeOfPayment (string, choicelist[resourceBundle]) mandatory indexed=no facetable < donate,billing
+  - paypaluser (string) indexed=no nofulltext mandatory 
+  - countrycode  (string, choicelist[country,flag]) mandatory indexed=no
+  - item_name (string) indexed=no nofulltext
+  - item_number (long)
+  - amount (double) indexed=no
+  - displayAmountInputField (boolean)
+  - amountReadOnly (boolean)
+  - allowrequestparamprice (boolean)  
+  - currency_code (string) indexed=no nofulltext mandatory
+  - param_name (string)

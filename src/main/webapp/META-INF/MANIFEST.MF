@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: bamboo
+Build-Jdk: 1.5.0_22
+Implementation-Title: Jahia Paypal
+Implementation-URL: http://www.jahia.org
+Implementation-Vendor: Jahia Solutions Group SA
+Implementation-Vendor-Id: org.jahia
+Implementation-Version: 1.1-SNAPSHOT
+Specification-Title: Jahia Paypal
+Specification-Vendor: Jahia Solutions Group SA
+Specification-Version: 1.0-SNAPSHOT
+package-name: Jahia Paypal
+root-folder: paypal
+
